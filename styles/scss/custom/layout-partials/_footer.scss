@@ -1,0 +1,45 @@
+.footer {
+  background: $brand-info;
+  
+  .footer-logo {
+    color: white;
+    
+    img {
+      display: block;
+    }
+    
+  }
+  
+  .login-btn-group {
+    margin-top: $padding-xl-vertical + 10;
+    margin-bottom: $padding-xl-vertical + 10;
+  }
+  
+  .footer-nav-list {
+    text-align: center;
+    margin-top: $padding-xl-vertical;
+    
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: $padding-xl-horizontal;
+      
+      a {
+        color: $brand-dark;
+        font-weight: bold;
+        display: block;
+      }
+    }
+  }
+  
+  .copyright {
+    background: $brand-dark;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    
+    p {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+// Content Boxes Mixins
+
+@mixin content-boxes($padding, $bg-color, $radius, $border-color) {
+  width: 100%;
+  height: auto;
+  padding: $padding;
+  background: $bg-color;
+  border-radius: $radius;
+  border: 1px solid $border-color;
+  margin-bottom: $padding-xl-vertical;
+}

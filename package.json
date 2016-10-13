@@ -1,0 +1,17 @@
+{
+  "name": "clintrialconnect-marketing-static",
+  "version": "0.0.1",
+  "description": "Marketing site for ClinTrialConnect",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Bacon",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-sass": "^2.3.2"
+  }
+}

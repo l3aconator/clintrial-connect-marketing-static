@@ -1,0 +1,119 @@
+.features {
+  position: relative;
+  padding-top: 350px;
+  
+  .feature-main-heading {
+    margin-bottom: $padding-xl-vertical * 2;
+  }
+  
+  .features-list {
+    padding-bottom: 5%;
+    position: relative;
+  }
+  
+  .web-app-image {
+    position: absolute;
+    top: 26%;
+    left: 0px;
+    box-shadow: $btn-default-shadow;
+    width: 35%;
+	border: 2px solid white;
+	border-left: none;
+	  border-radius: 10px;
+	  border-top-left-radius: 0;
+	  border-bottom-left-radius: 0;
+  }
+  
+  .feature-list-item {
+    height: 450px;
+    margin-bottom: $padding-xl-vertical * 2;
+    
+    &:hover,
+    &:active, 
+    &:focus {
+      .feature-icon-box {
+        transform: scale(1.15);
+      }
+    }
+    
+  }
+  
+  .feature-icon-box {
+    width: 100px;
+    height: 100px;
+    border-radius: $border-radius-large;
+    background: $brand-info;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $padding-xl-vertical;
+    box-shadow: $btn-default-shadow;
+    transition: $default-transition;
+
+    .feature-icon {
+      font-size: 4em;
+      text-align: center;
+      color: white;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .feature-content {
+    color: white;
+  }
+  
+  .feature-heading {
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: .02em;
+    line-height: 30px;
+    color: white !important;
+    margin-bottom: $padding-xl-vertical;
+  }
+  
+  .feature-text {
+    letter-spacing: .02em;
+    font-size: 1.15em;
+    line-height: 28px;
+  }
+  
+  .cta-block {
+    position: absolute;
+    bottom: -85px;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+@media (max-width: $screen-md) {
+  
+  .features {
+    padding-top: 0px;
+    
+    .section-pad {
+      padding-bottom: 0;
+    }
+    
+    .web-app-image {
+      position: static;
+      left: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+    }
+    
+    .feature-list-item {
+      height: auto;
+      margin-bottom: $padding-xl-vertical;
+    }
+    
+    .cta-block {
+      position: static;
+    }
+  }
+}

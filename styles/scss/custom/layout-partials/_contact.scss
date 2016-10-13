@@ -1,0 +1,24 @@
+.contact {
+  padding-top: 75px;
+  
+  h2 {
+    margin-bottom: $padding-xl-vertical * 2;
+  }
+  
+  .contact-form {
+  
+    input[type=submit] {
+      margin-top: $padding-xl-vertical;
+    }
+  }
+  
+}
+
+@media (max-width: $screen-md) { 
+  
+  .contact {
+    padding-top: $padding-xl-vertical + 10;
+    padding-bottom: $padding-xl-vertical + 10;
+  }
+}
+

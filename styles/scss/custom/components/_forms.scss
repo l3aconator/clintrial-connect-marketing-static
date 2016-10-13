@@ -1,0 +1,23 @@
+//.form-with-button {
+//  
+//  .form-control {
+//    border-top-right-radius: 0;
+//    border-bottom-right-radius: 0;
+//    border-right: 0;
+//    width: 80%;
+//  }
+//  
+//  .btn {
+//    border-top-left-radius: 0;
+//    border-bottom-left-radius: 0;
+//    margin-left: -4px;
+//    border-left: 0;
+//    display: inline-block;
+//  }
+//}
+
+.form-with-button {
+  .btn {
+    margin-top: $padding-large-vertical;
+  }
+}

@@ -1,0 +1,86 @@
+.hero {
+  background: $brand-dark;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 300px;
+  padding-top: $padding-xl-vertical + 10;
+  
+  .main-heading {
+    padding-top: 80px;
+  }
+  
+  .info-box:first-child {
+    margin-top: 30px;
+  }
+  
+  .sub-hero {
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    
+    .content {
+      margin-left: 20%;
+      margin-right: 20%;
+      padding-top: $padding-xl-vertical * 3;
+      padding-bottom: $padding-xl-vertical * 3;
+      
+      h2 {
+        font-size: $font-size-h1;
+        line-height: 54px;
+        color: $brand-info;
+        text-align: center;
+        padding-bottom: $padding-xl-vertical;
+      }
+      
+      p {
+        font-size: 1.5em;
+        line-height: 34px;
+        text-align: center;
+      }
+      
+    }
+    
+    
+  }
+}
+
+@media (max-width: $screen-md) {
+  .hero {
+    padding-bottom: $padding-xl-vertical + 10;
+    
+    .info-box:first-child {
+      margin-top: 0px;
+    }
+    
+    .main-heading {
+      font-size: $font-size-h2;
+      text-align: center;
+      padding-top: $padding-xl-vertical + 10;
+      padding-bottom: $padding-xl-vertical + 10;
+    }
+    
+    .sub-hero {
+      position: static !important;
+    
+      .content {
+        padding-top: $padding-xl-vertical;
+        padding-bottom: $padding-xl-vertical;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        h2 {
+          font-size: $font-size-h3;
+          line-height: 32px;
+        }
+        
+        p {
+          font-size: 1.15em;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
